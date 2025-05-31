@@ -21,13 +21,13 @@ class MealsScreen extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text('Nada por aquí...nada por acá',
+            Text('Nothing here...yet!',
                 style: Theme.of(context)
                     .textTheme
                     .headlineLarge!
                     .copyWith(color: Theme.of(context).colorScheme.onSurface)),
             const SizedBox(height: 16),
-            Text('Intenta seleccionando otra categoría',
+            Text('Try selecting a different category',
                 style: Theme.of(context)
                     .textTheme
                     .bodyLarge!
